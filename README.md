@@ -21,7 +21,7 @@ dotnet build --configuration Release --output /tmp/agent csharp.minimal.agent.cs
 ```
 3. Build the project and execute it with for example:
 ```
-ClaudeCode.exe -p "Read the GUIDE.txt and execute every given Instruction from the File"
+csharp.minimal.agent / csharp.minimal.agent.exe -p "Read the GUIDE.txt and execute every given Instruction from the File"
 ```
 
 
