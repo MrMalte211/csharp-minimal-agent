@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "csharp.minimal.agent": {
+      "commandName": "Project",
+      "commandLineArgs": "-p \"What is 7*7\""
+    }
+  }
+}
