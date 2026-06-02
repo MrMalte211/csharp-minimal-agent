@@ -9,17 +9,21 @@ Here is a quick Graphical (Beautiful) Excalidraw  Representation:
 
 ## Installation
 
-1. Install Dotnet SDK >= 9.0
-2. Clone The Repo
+1. Install [Dotnet SDK >= 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
+2. Clone The Repo:
 ```bash
-git clone REPO URL
+git clone https://github.com/MrMalte211/csharp-minimal-agent.git
 ```
-3.  Insert your API Key and Compile the project
+3.  Insert your API Key and Compile the project:
 ```bash
-cd "$(dirname "$0")" # Ensure compile steps are run within the repository directory
-dotnet build --configuration Release --output /tmp/codecrafters-build-csharp CodeCrafters.ClaudeCode.csproj
+cd "csharp-minimal-agent" 
+dotnet build --configuration Release --output /tmp/agent csharp.minimal.agent.csproj
 ```
-3. Build the project and execute it with
+3. Build the project and execute it with for example:
 ```
 ClaudeCode.exe -p "Read the GUIDE.txt and execute every given Instruction from the File"
 ```
+
+
+## References
+- https://github.com/openai/openai-dotnet
