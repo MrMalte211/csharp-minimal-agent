@@ -5,7 +5,7 @@ The Projects uses Open Router to interact with a Model of your choice (the code 
 
 
 Here is a quick Graphical (Beautiful) Excalidraw  Representation:
-![Overview.png]
+![Overview](Overview.png)
 
 ## Installation
 
